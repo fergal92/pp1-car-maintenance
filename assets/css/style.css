@@ -97,6 +97,10 @@ main{
     max-width:fit-content;
 }
 
+/* footer */
+footer{
+    background-color: #052ab0ff;
+}
 /* media query for tablets */
 @media screen and (min-width: 768px){
     /* header */
