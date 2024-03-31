@@ -101,12 +101,18 @@ main{
 /* footer */
 footer{
     background-color: #052ab0ff;
-    /* color:#ffffff; */
-    /* width:100%; */
+    width:100%;
     color:#c0c0c0ff;
     display:flex;
     margin-top: auto;
 }
+#social-networks{
+    display: flex;
+    text-align: center;
+}
+#social-networks li{
+}
+
 /* media query for tablets */
 @media screen and (min-width: 768px){
     /* header */
