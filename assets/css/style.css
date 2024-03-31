@@ -110,10 +110,12 @@ footer{
     display: flex;
     text-align: center;
     list-style-type: none;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     padding:20px 0;
+    right:0px;
 }
 #social-networks li{
+padding:5%;
 }
 
 /* media query for tablets */
