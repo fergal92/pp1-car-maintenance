@@ -109,6 +109,9 @@ footer{
 #social-networks{
     display: flex;
     text-align: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding:20px 0;
 }
 #social-networks li{
 }
