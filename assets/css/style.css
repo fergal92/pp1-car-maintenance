@@ -12,6 +12,7 @@
     body{
         font-family: raleway;
         display:flex;
+        min-height:100vh;
         /* flex-direction: column; */
         color:black;
         flex-direction: column;
@@ -59,6 +60,7 @@ h1{
     border-bottom: 1px solid #ffffff;
 }
 
+/* taken from love running project */
 /* dropdown menu with toggle */
 
 nav{
@@ -88,7 +90,7 @@ nav{
 main{
     background-color: #ffffff;
     flex:1 0 auto;
-    margin-top:20px;
+    margin-top:120px;
 }
 
 /* hero image */
@@ -96,7 +98,12 @@ main{
     margin-left: auto;
     margin-right:auto;
     max-width:fit-content;
-}
+    }
+
+    #hero-img{
+        width:320px;
+        height:213px;
+    }
 
 /* footer */
 footer{
@@ -151,4 +158,19 @@ padding:5%;
         /* push main content down for larger header */
         margin-top:54px;
     }
+
+    /* make hero img larger for tablet */
+    #hero-img{
+        width: 740px;
+        height:494px;
+    }
 }
+
+    /* media query for larger laptops */
+@media screen and (min-width: 1024px){
+    #hero-img{
+        width: 1024px;
+        height:683px;
+    }
+}
+
