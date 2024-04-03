@@ -125,6 +125,12 @@ footer{
 padding:5%;
 }
 
+/* maintenance page specific style */
+
+.maintenance-list{
+    list-style-type:none;
+}
+
 /* media query for tablets */
 @media screen and (min-width: 768px){
     /* header */
@@ -171,6 +177,13 @@ padding:5%;
     #hero-img{
         width: 1024px;
         height:683px;
+    }
+
+    /* maintenance page style laptop size */
+    .maintenance{
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
