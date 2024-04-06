@@ -7,7 +7,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 /* general style */
@@ -20,6 +19,7 @@ body {
     flex-direction: column;
 }
 
+/* text ceneter class */
 .text-center {
     text-align: center;
 }
@@ -62,9 +62,7 @@ h1 {
     border-bottom: 1px solid #ffffff;
 }
 
-/* taken from love running project */
-/* dropdown menu with toggle */
-
+/* dropdown menu with toggle - credit to love running walkthrough project*/
 nav {
     position: absolute;
     background-color: #052ab0ff;
@@ -87,7 +85,6 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
-
 
 /* main */
 main {
@@ -114,7 +111,6 @@ footer {
     width: 100vw;
     color: white;
     margin-top: auto;
-
 }
 
 #social-networks {
@@ -132,7 +128,6 @@ footer {
 }
 
 /* maintenance page specific style */
-
 .maintenance-list {
     list-style-type: none;
 }
@@ -228,7 +223,7 @@ input[type="submit"] {
         height: 683px;
     }
 
-    /* maintenance page style laptop size */
+    /* maintenance page style */
     .maintenance {
         max-width: 80%;
         margin-left: auto;
