@@ -107,7 +107,7 @@ main {
 /* footer */
 footer {
     background-color: #052ab0ff;
-    width: 100vw;
+    /* width: 100vw; */
     color: white;
     margin-top: auto;
 }
