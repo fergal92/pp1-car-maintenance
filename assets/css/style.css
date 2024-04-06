@@ -117,13 +117,16 @@ footer {
     text-align: center;
     list-style-type: none;
     justify-content: space-evenly;
-    /* padding:20px 0; */
     right: 0px;
     font-size: 30px;
 }
 
 #social-networks li {
-    padding: 0 5%;
+    padding: 1% 5%;
+}
+
+#social-networks li a {
+    color: white;
 }
 
 /* maintenance page specific style */
