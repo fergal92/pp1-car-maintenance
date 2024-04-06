@@ -166,6 +166,11 @@ footer {
 }
 
 /* maintenance page specific style */
+.maintenance {
+    display: flex;
+    flex-direction: column;
+}
+
 .maintenance-list {
     list-style-type: none;
 }
