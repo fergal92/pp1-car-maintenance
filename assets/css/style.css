@@ -176,7 +176,11 @@ footer {
 
 .maintenance h2,
 h3 {
-    padding-bottom: 0.25rem;
+    padding-bottom: 0.5rem;
+}
+
+.list-padding {
+    padding-bottom: 0.5rem;
 }
 
 /* contact page specific style */
