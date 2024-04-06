@@ -85,6 +85,11 @@ nav {
     font-size: 2rem;
 }
 
+/* hand pointer cursor when hovering over hamburger icon */
+.nav-toggle-label:hover {
+    cursor: pointer;
+}
+
 /* main */
 main {
     background-color: #ffffff;
