@@ -197,6 +197,19 @@ input[type="submit"] {
 }
 
 /* thank you page */
+.thank-you-container {
+    padding: 30px;
+    text-decoration: none;
+}
+
+.thank-you-container a {
+    color: #052ab0ff;
+}
+
+.thank-you-container a:hover {
+    color: #d5002eff;
+    cursor: pointer;
+}
 
 /* media query for tablets */
 @media screen and (min-width: 768px) {
