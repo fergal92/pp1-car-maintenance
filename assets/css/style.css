@@ -44,7 +44,6 @@ header a {
 h1 {
     font-family: montserrat, sans-serif;
     text-transform: uppercase;
-    color: #c0c0c0ff;
 }
 
 #menu {
@@ -196,6 +195,8 @@ input[type="submit"] {
     color: #c0c0c0ff;
     cursor: pointer;
 }
+
+/* thank you page */
 
 /* media query for tablets */
 @media screen and (min-width: 768px) {
