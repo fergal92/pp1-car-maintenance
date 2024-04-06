@@ -24,10 +24,6 @@ body {
 }
 
 /* header */
-#logo {
-    color: #c0c0c0ff;
-}
-
 header {
     background-color: #052ab0ff;
     display: flex;
@@ -43,6 +39,10 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+#logo {
+    color: #c0c0c0ff;
 }
 
 h1 {
@@ -226,6 +226,10 @@ input[type="submit"] {
 .thank-you-container a:hover {
     color: #d5002eff;
     cursor: pointer;
+}
+
+.thank-you-padding {
+    padding: 20px;
 }
 
 /* media query for tablets */
