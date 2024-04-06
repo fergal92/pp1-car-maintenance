@@ -24,6 +24,10 @@ body {
 }
 
 /* header */
+#logo {
+    color: #c0c0c0ff;
+}
+
 header {
     background-color: #052ab0ff;
     display: flex;
@@ -98,6 +102,19 @@ main {
     background-color: #ffffff;
     flex: 1 0 auto;
     margin-top: 124px;
+}
+
+/* text links */
+main a {
+    text-decoration: none;
+}
+
+main .click-hover {
+    color: #d5002eff;
+}
+
+main .click-hover:hover {
+    color: #052ab0ff;
 }
 
 /* hero image */
@@ -235,22 +252,19 @@ input[type="submit"] {
         display: none;
     }
 
-    logo {
-        /* font-size: 2rem; */
-        line-height: 75px;
-        margin: 0 0.5rem
-    }
-
     /* main content */
     main {
         /* push main content down for larger header */
         margin-top: 84px;
     }
-
 }
 
 /* media query for larger laptops */
 @media screen and (min-width: 1024px) {
+    main {
+        margin-top: 60px;
+    }
+
     #hero-img {
         width: 1024px;
         height: 683px;
