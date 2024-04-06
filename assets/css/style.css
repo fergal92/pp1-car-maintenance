@@ -57,6 +57,10 @@ h1 {
     margin-bottom: 1em;
 }
 
+#menu a:hover {
+    color: #d5002eff;
+}
+
 .active-link {
     border-bottom: 1px solid #ffffff;
 }
@@ -131,6 +135,10 @@ footer {
 
 #social-networks li a {
     color: white;
+}
+
+#social-networks li a:hover {
+    color: #c0c0c0ff;
 }
 
 /* maintenance page specific style */
