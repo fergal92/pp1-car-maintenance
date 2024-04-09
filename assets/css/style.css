@@ -167,12 +167,19 @@ footer {
 
 /* maintenance page specific style */
 .maintenance {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .maintenance-list {
     list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: justify;
 }
 
 .content-padding {
@@ -313,5 +320,9 @@ input[type="submit"] {
         max-width: 80%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .maintenance-list {
+        width: 80%;
     }
 }
