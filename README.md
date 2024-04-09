@@ -3,6 +3,20 @@ Car maintenance bible is the go to guide for people wanting to know the basic ta
 
 ![responsive-img](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/417c8aeb-7ec0-4d88-8d8c-0b8e64e63ce4)
 
+## **TABLE OF CONTENTS**
+
+## Design
+- ### Colours
+- ### Typography
+- ### Media
+- ### Wireframes
+  First draft wireframes of the different pages as viewed on a laptop
+  
+![car-maintenance-bible-index](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/11310220-3d71-4009-9d71-369dd9b58de5)
+![car-maintenance-bible-maintenance](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/ca410fde-18de-4ac8-81d1-84accb6bff0a)
+![car-maintenance-bible-contact](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/953ff19c-a941-4d6e-859d-899fe3d44010)
+
+
 ## Features
 
 ### Existing Features
