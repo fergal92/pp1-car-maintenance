@@ -1,39 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Car Maintenance Bible
+Car maintenance bible is the go to guide for people wanting to know the basic tasks they can undertake to take care of their car and keep it in good running order. The site is easy to navigate and provides the essential information to the user. The site is targeted towards all car owners whether a first timer or a veteran of the road. The site offers a contact page to get in touch if the user's questions are not answered after visiting the site.
 
-Welcome,
+![responsive-img](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/417c8aeb-7ec0-4d88-8d8c-0b8e64e63ce4)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+### Existing Features
 
-## Codeanywhere Reminders
+- #### Navigation Bar
+	- Featured on all three page, the fully responsive navigation bar includes a logo with link to the home page and three list items that link to the home page, maintenance page and the contact page.
+	- This section will allow users to navigate around the website without having to use the back button
+![nav-bar](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/c0a98530-e855-45f0-8664-1e721908e46b)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- #### Landing page image
+	- The landing page image is of an engine bay with an image map overlaid so that the user can click different part of the photo to be brought to the corresponding section on the maintenance page, for example, clicking the headlights brings the user to the lights section, clicking the engine brings the user to the engine oil section.
+	- The engine bay image is of a beautifully maintained Nissan Skyline R34 GT-R which is a legendary car among car enthusiasts.
+![hero-img](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/769310fa-0fb8-4bc6-9482-3721b58f20ef)
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- #### The Footer
+	- The footer section includes links to relevant social media sites. The links open to a new tab to allow for easy navigation for the user.
+	- The footer sticks to the bottom of the page
+*insert image*
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- #### Contact Page
+	- The contact page will allow the user to contact the website for more specific questions and to subscribe to hear more from the car maintenance bible
+	- The user will be asked to submit their full name and and email address and to tick a checkbox to subscribe and to write their message
+*insert image*
+### Features left to implement 
 
-`http_server`
+- #### Further maintenance tasks
+- #### More image maps for all parts of the car
+## Testing
+### Validator Testing
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- #### HTML
+	- *insert errors*
+- #### CSS
+	- *insert errors*
+### Unfixed Bugs
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The image map currently only works on screen sizes of 1040px and higher. I could not make the image map work at different sizes without javaScript
+## Deployment
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- The site was deployed on gitHub pages on day 1 of the project undertaking. Steps taken are as follows:
+	- Inside the repo click the settings tab
+	- Click on pages menu item on the side bar
+	- Select the master branch and then click the link to go to the live site
 
-To log into the Heroku toolbelt CLI:
+The live link to the site can be found here https://fergal92.github.io/pp1-car-maintenance/index.html 
+## Credits
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+### Content
+- Perplexity AI was used to generate each of the maintenance steps found on the maintenance page
+- The icons in the footer were taken from font awesome
+- The fonts were taken from google fonts 
+- The contact page was taken from a freecodecamp tutorial. I modified it to suit this project
+### Media
+-  The hero image was taken from a reddit post
+- The maintenance images were taken from page 1 of a google image search
