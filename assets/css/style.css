@@ -291,8 +291,16 @@ input[type="submit"] {
 
 /* media query for larger laptops */
 @media screen and (min-width: 1024px) {
+    header {
+        padding: 0.5rem 1rem;
+    }
+
+    #menu li {
+        margin-bottom: 0.5rem;
+    }
+
     main {
-        margin-top: 60px;
+        margin-top: 70px;
     }
 
     #hero-img {
