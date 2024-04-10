@@ -1,7 +1,8 @@
 # Car Maintenance Bible
 Car maintenance bible is the go to guide for people wanting to know the basic tasks they can undertake to take care of their car and keep it in good running order. The site is easy to navigate and provides the essential information to the user. The site is targeted towards all car owners whether a first timer or a veteran of the road. The site offers a contact page to get in touch if the user's questions are not answered after visiting the site.
 
-![responsive-img](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/417c8aeb-7ec0-4d88-8d8c-0b8e64e63ce4)
+![responsive-img](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/236491e7-5f6f-4cda-a102-c7fc2035f30f)
+
 
 ## Design
 - ### Colours
@@ -54,16 +55,27 @@ Car maintenance bible is the go to guide for people wanting to know the basic ta
 - #### The Footer
 	- The footer section includes links to relevant social media sites. The links open to a new tab to allow for easy navigation for the user.
 	- The footer sticks to the bottom of the page
-*insert image*
+![footer](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/e7d13ed1-0026-433f-beb4-7973630c10b7)
+
+
+- #### Maintenance Page
+	- Includes all maintenace content
+   	- content includes picture per item and is centered and justified
+   	- each mainteance task is connected to the hero image map on index page
+ ![maintenance](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/39d37cd7-f0c3-49e0-b254-3a86c8dcedb8)
+
 
 - #### Contact Page
 	- The contact page will allow the user to contact the website for more specific questions and to subscribe to hear more from the car maintenance bible
 	- The user will be asked to submit their full name and and email address and to tick a checkbox to subscribe and to write their message
-*insert image*
+![contact](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/75fd131a-56de-4039-9c80-ab2630c1d213)
+
+
 ### Features left to implement 
 
 - #### Further maintenance tasks
 - #### More image maps for all parts of the car
+
 ## Testing
 ### Validator Testing
 
@@ -76,6 +88,10 @@ Car maintenance bible is the go to guide for people wanting to know the basic ta
    		
 - #### CSS
 	![css-validation-error](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/cda10943-808c-4725-b9c6-45f6d5242913)
+
+- #### Accessibility
+	I confirmed that the colour and fonts are easy to read by running it through lighthouse in devtools
+	![lighthouse-1](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/64c4f99f-ea6e-4835-965e-b02df782c3dd)
 
 All validation errors were fixed
 
@@ -94,6 +110,7 @@ All validation errors were fixed
 -  Changed font-sizes instead to rem units instead of % and the hero image was not centered anymore - solved with changing div width.
 - changed hamburger icon to hand pointer when hovering over - https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item
 - Struggled to get the maintenance page content to sit nicely in the middle of the page. Eventually got it working by changing the width property for the different media queries
+- Commit messages before mentor meeting 1 were bad practice. After the meeting the correct format was used
   
 ### Unfixed Bugs
 
@@ -116,3 +133,8 @@ The live link to the site can be found here https://fergal92.github.io/pp1-car-m
 ### Media
 -  The hero image was taken from a reddit post
 - The maintenance images were taken from page 1 of a google image search
+
+## External tools
+- ### GitHub Projects
+  	Link to the GitHub prject page that was used to manage the website build. Items were added to the kanban board and worked through.
+	- https://github.com/users/fergal92/projects/1/views/2 
