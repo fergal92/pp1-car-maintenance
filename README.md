@@ -3,8 +3,6 @@ Car maintenance bible is the go to guide for people wanting to know the basic ta
 
 ![responsive-img](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/417c8aeb-7ec0-4d88-8d8c-0b8e64e63ce4)
 
-## **TABLE OF CONTENTS**
-
 ## Design
 - ### Colours
   I asked perplexity AI to suggest a good colour for a car maintenance website. It had varying suggestions. I settled on blue , red, white and silver as my colours of choice and used https://coolors.co/ to help pick the shade
@@ -70,9 +68,17 @@ Car maintenance bible is the go to guide for people wanting to know the basic ta
 ### Validator Testing
 
 - #### HTML
-	- *insert errors*
+	##### Index page
+	![html-validation-error-1](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/1871dab7-47c2-4ac0-bf42-b5398f324fa6)
+	
+	 ##### Maintenance page
+  	![html-validation-error-2](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/6dae42ab-d91d-44fc-a338-57d1b430d3bb)
+   		
 - #### CSS
-	- *insert errors*
+	![css-validation-error](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/cda10943-808c-4725-b9c6-45f6d5242913)
+
+All validation errors were fixed
+
 ### Bugs
 - To link to an id on a seperate page found solution at https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
 - To change the colour of one letter solution at https://www.quora.com/How-do-I-change-color-of-one-letter-in-a-h1-tag
