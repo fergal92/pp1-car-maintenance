@@ -74,7 +74,7 @@ nav {
     background-color: #052ab0ff;
     width: 100%;
     left: 0;
-    box-shadow: 0 2px 1px c0c0c0ff;
+    box-shadow: 0 2px 1px #c0c0c0ff;
     display: none;
     top: 100%;
 }
