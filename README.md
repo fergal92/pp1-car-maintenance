@@ -3,6 +3,41 @@ Car maintenance bible is the go to guide for people wanting to know the basic ta
 
 ![responsive-img](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/417c8aeb-7ec0-4d88-8d8c-0b8e64e63ce4)
 
+## **TABLE OF CONTENTS**
+
+## Design
+- ### Colours
+  I asked perplexity AI to suggest a good colour for a car maintenance website. It had varying suggestions. I settled on blue , red, white and silver as my colours of choice and used https://coolors.co/ to help pick the shade
+  ```
+  /* CSS HEX */
+  international-klein-blue: #052ab0ff;  
+  white: #ffffffff;  
+  silver: #c0c0c0ff;  
+  fire-engine-red: #d5002eff;  
+- ### Typography
+  I used Raleway and Montserrat as the fonts for the project. They are Sans Serif fonts. Perplexity AI suggested the use of these fonts for a car maintenance themed website. They worked well upon trial so i kept them. The fonts were found and imported from Google Fonts.
+    
+- ### Media
+  The photos used for the website were taken from a google image search. The photos and the link to the site they were found are listed below.
+	- engine bay photo - https://www.meguiars.co.uk/showroom/detailing-bay-650bhp-full-stage-r34-gt-r/
+	- battery - https://www.goauto.ca/tools-resources/how-to-test-your-battery-voltage
+	- headlights - https://smartdriving.co.uk/Driving/Driving_emergencies/headlights.html
+	- engine oil check - https://www.gulfoilltd.com/blog/when-should-you-check-the-engine-oil-level
+	- coolant check - https://haynes.com/en-gb/tips-tutorials/how-check-and-change-your-car-s-coolant
+	- wiper blades - https://www.sunsetnorthcarwash.com/2020/12/14/it-might-be-time-to-change-your-windshield-wiper-blades/
+
+  The icons were sourced from Font Awesome
+
+  The Favicons were taken for free from this website https://favicon.io/emoji-favicons/automobile
+  
+- ### Wireframes
+  Wireframes were created using Blasamiq. First draft wireframes of the different pages as viewed on a laptop
+  
+![car-maintenance-bible-index](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/11310220-3d71-4009-9d71-369dd9b58de5)
+![car-maintenance-bible-maintenance](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/ca410fde-18de-4ac8-81d1-84accb6bff0a)
+![car-maintenance-bible-contact](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/953ff19c-a941-4d6e-859d-899fe3d44010)
+
+
 ## Features
 
 ### Existing Features
@@ -38,6 +73,22 @@ Car maintenance bible is the go to guide for people wanting to know the basic ta
 	- *insert errors*
 - #### CSS
 	- *insert errors*
+### Bugs
+- To link to an id on a seperate page found solution at https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
+- To change the colour of one letter solution at https://www.quora.com/How-do-I-change-color-of-one-letter-in-a-h1-tag
+- To know which pixels where each engine part in hero image
+	- open the photo in paint and click view rulers
+	- https://html.com/images/how-to-make-an-image-map/
+	- figured out the problem was that the usemap attribute needed a # before workmap to target it
+- struggled with the footer. Could not get it right until I changed the body flex direction to column and then it sat vertically under the other sections.
+- the drop down menu was opening on top of the image - need to push the top of image to the bottom of the dropdown menu. Increased the top margin of main to solve this.
+- The img was not opening in the correct size since I had made the img smaller for mobile first - solved just spelling error on the media query.
+- tablet size menu bar was covering top of main content still - solved with media query
+- could not get the bullet points removed from the ordered list but the list items were not inside the OL element.
+-  Changed font-sizes instead to rem units instead of % and the hero image was not centered anymore - solved with changing div width.
+- changed hamburger icon to hand pointer when hovering over - https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item
+- Struggled to get the maintenance page content to sit nicely in the middle of the page. Eventually got it working by changing the width property for the different media queries
+  
 ### Unfixed Bugs
 
 The image map currently only works on screen sizes of 1040px and higher. I could not make the image map work at different sizes without javaScript
