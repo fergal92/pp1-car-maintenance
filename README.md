@@ -1,5 +1,6 @@
 # Car Maintenance Bible
-Car maintenance bible is the go to guide for people wanting to know the basic tasks they can undertake to take care of their car and keep it in good running order. The site is easy to navigate and provides the essential information to the user. The site is targeted towards all car owners whether a first timer or a veteran of the road. The site offers a contact page to get in touch if the user's questions are not answered after visiting the site.
+Car maintenance bible is the go to guide for people wanting to know the basic tasks they can undertake to take care of their car and keep it in good running order. The site is easy to navigate and provides the essential information to the user. The site is targeted towards all car owners whether a first timer or a veteran of the road. The site offers a contact page to get in touch if the user's questions are not answered after visiting the site. 
+The site landing page contains a link to a Top Gear article about the same car that is used for the hero image on the landing page. This article was used to apeal to car enthusiasts and keep them enjoying car related content rather than using a wikipedia article where their attention could get drawn in other directions. This was purposely chosen to ensure the website focused on car based content.
 
 ![responsive-img](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/236491e7-5f6f-4cda-a102-c7fc2035f30f)
 
@@ -89,11 +90,11 @@ Car maintenance bible is the go to guide for people wanting to know the basic ta
 - #### CSS
 	![css-validation-error](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/cda10943-808c-4725-b9c6-45f6d5242913)
 
+All validation errors were fixed
+
 - #### Accessibility
 	I confirmed that the colour and fonts are easy to read by running it through lighthouse in devtools
 	![lighthouse-1](https://github.com/fergal92/pp1-car-maintenance/assets/154473378/64c4f99f-ea6e-4835-965e-b02df782c3dd)
-
-All validation errors were fixed
 
 ### Bugs
 - To link to an id on a seperate page found solution at https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
