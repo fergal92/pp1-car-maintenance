@@ -111,11 +111,11 @@ main a {
 }
 
 main .click-hover {
-    color: #d5002eff;
+    color: #052ab0ff;
 }
 
 main .click-hover:hover {
-    color: #052ab0ff;
+    color: #d5002eff;
 }
 
 /* hero image */
