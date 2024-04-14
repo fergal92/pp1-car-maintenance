@@ -249,8 +249,9 @@ input[type="submit"] {
 
 /* thank you page */
 .thank-you-container {
-    padding: 30px;
+    padding: 120px;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .thank-you-container a {
@@ -299,6 +300,10 @@ input[type="submit"] {
 
 /* media query for larger laptops */
 @media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.25rem;
+    }
+
     header {
         padding: 0.5rem 1rem;
     }
