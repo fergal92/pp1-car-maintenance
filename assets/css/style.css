@@ -168,8 +168,6 @@ footer {
 
 /* maintenance page specific style */
 .maintenance {
-    /* display: flex;
-    flex-direction: column; */
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -204,7 +202,6 @@ form {
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
-
 }
 
 fieldset {
