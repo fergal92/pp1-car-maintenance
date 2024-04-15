@@ -17,7 +17,7 @@ Maintenance page: ![Responsive test maintenance page](assets/readme-media/respon
 
 Contact page: ![Responsive test contact page](assets/readme-media/responsive-contact.png)
 
-Thabk you page: ![Responsive test thank you page](assets/readme-media/responsive-thank-you.png)
+Thank you page: ![Responsive test thank you page](assets/readme-media/responsive-thank-you.png)
 
 ## Manual Testing
 | feature | action | expected result | tested | passed | comments |
@@ -64,10 +64,13 @@ All validation errors were fixed
 I confirmed that the colour and fonts are easy to read by running it through lighthouse in chrome devtools
 I did this for each page of the website
 
-![lighthouse report](assets/readme-media/lighthouse-index.png)
-![lighthouse report](assets/readme-media/lighthouse-maintenance.png)
-![lighthouse report](assets/readme-media/lighthouse-contact.png)
-![lighthouse report](assets/readme-media/lighthouse-thank-you.png)
+Index page: ![lighthouse report](assets/readme-media/lighthouse-index.png)
+
+Maintenance page: ![lighthouse report](assets/readme-media/lighthouse-maintenance.png)
+
+Contact page: ![lighthouse report](assets/readme-media/lighthouse-contact.png)
+
+Thanl you page: ![lighthouse report](assets/readme-media/lighthouse-thank-you.png)
 
 ## Bugs
 ### Solved bugs
