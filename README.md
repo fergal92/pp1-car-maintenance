@@ -19,7 +19,7 @@ silver: #c0c0c0ff;
 fire-engine-red: #d5002eff;  
 ```
 ## Typography
-I used Raleway and Montserrat as the fonts for the project. They are Sans Serif fonts. Perplexity AI suggested the use of these fonts for a car maintenance themed website. They worked well upon trial so i kept them. The fonts were found and imported from Google Fonts.
+I used Raleway and Montserrat as the fonts for the project. They are Sans Serif fonts. Perplexity AI suggested the use of these fonts for a car maintenance themed website. They worked well upon trial so I kept them. The fonts were found and imported from Google Fonts.
 ![raleway font](assets/readme-media/raleway-font.png)
 ![raleway font](assets/readme-media/montserrat-font.png)
 
@@ -79,41 +79,8 @@ Wireframes were created using Blasamiq. First draft wireframes of the different 
 - More image maps for all parts of the car
 
 ## Testing
-### Validator Testing
+Please refer to the [TESTING.md](TESTING.md) file for all testing documentation
 
-#### HTML
-##### Index page
-![html validation error index page](assets/readme-media/html-validation-error-1.png)
-
-##### Maintenance page
-![html validation error maintenance page](assets/readme-media/html-validation-error-2.png)
-
-#### CSS
-![css validation error](assets/readme-media/css-validation-error.png)
-
-All validation errors were fixed
-
-### Accessibility
-I confirmed that the colour and fonts are easy to read by running it through lighthouse in chrome devtools
-I did this for each page of the website
-
-![lighthouse report](assets/readme-media/lighthouse-index.png)
-![lighthouse report](assets/readme-media/lighthouse-maintenance.png)
-![lighthouse report](assets/readme-media/lighthouse-contact.png)
-![lighthouse report](assets/readme-media/lighthouse-thank-you.png)
-
-### Bugs
-- I could not get the website to link to other html pages of the website. I utilised a solution from the following link and adapted it to my site - https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
-- To change the colour of one letter solution at https://www.quora.com/How-do-I-change-color-of-one-letter-in-a-h1-tag
-- In order for the image map to work correctly I needed to know which pixels in the image matched up to each particular engine bay component. I utilised the following website to find the solution - https://html.com/images/how-to-make-an-image-map/
-- I could not get the footer to sit correctly at the bottom of the page even with margin-top set to auto. I changed the body flex direction to column and then it sat vertically under the other sections. This was the solution.
-- The drop down menu was opening on top of the image - need to push the top of image to the bottom of the dropdown menu. Increased the top margin of main element to solve this. Then I had to make it responsive as the margin size differed at various resolutions.
-- I changed hamburger icon to hand pointer when hovering over. Solution found at this website - https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item
-- Struggled to get the maintenance page content to sit nicely in the middle of the page. Eventually got it working by changing the width property for the different media queries.
-- Commit messages before mentor meeting 1 were bad practice. After the meeting the correct format was used.
-  
-### Unfixed Bugs
-- No unfixed bugs
 ## Deployment
 
 The site was deployed on gitHub pages on day 1 of the project undertaking. Steps taken are as follows:
