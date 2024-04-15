@@ -20,6 +20,8 @@ fire-engine-red: #d5002eff;
 ```
 ## Typography
 I used Raleway and Montserrat as the fonts for the project. They are Sans Serif fonts. Perplexity AI suggested the use of these fonts for a car maintenance themed website. They worked well upon trial so i kept them. The fonts were found and imported from Google Fonts.
+![raleway font](assets/readme-media/raleway-font.png)
+![raleway font](assets/readme-media/montserrat-font.png)
 
 ### Media
 The icons were sourced from Font Awesome
@@ -95,34 +97,29 @@ All validation errors were fixed
 I confirmed that the colour and fonts are easy to read by running it through lighthouse in chrome devtools
 I did this for each page of the website
 
-![lighthouse report](assets/readme-media/lighthouse-index.png.png)
+![lighthouse report](assets/readme-media/lighthouse-index.png)
+![lighthouse report](assets/readme-media/lighthouse-maintenance.png)
+![lighthouse report](assets/readme-media/lighthouse-contact.png)
+![lighthouse report](assets/readme-media/lighthouse-thank-you.png)
 
 ### Bugs
-- To link to an id on a seperate page found solution at https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
+- I could not get the website to link to other html pages of the website. I utilised a solution from the following link and adapted it to my site - https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
 - To change the colour of one letter solution at https://www.quora.com/How-do-I-change-color-of-one-letter-in-a-h1-tag
-- To know which pixels where each engine part in hero image
-	- open the photo in paint and click view rulers
-	- https://html.com/images/how-to-make-an-image-map/
-	- figured out the problem was that the usemap attribute needed a # before workmap to target it
-- struggled with the footer. Could not get it right until I changed the body flex direction to column and then it sat vertically under the other sections.
-- the drop down menu was opening on top of the image - need to push the top of image to the bottom of the dropdown menu. Increased the top margin of main to solve this.
-- The img was not opening in the correct size since I had made the img smaller for mobile first - solved just spelling error on the media query.
-- tablet size menu bar was covering top of main content still - solved with media query
-- could not get the bullet points removed from the ordered list but the list items were not inside the OL element.
--  Changed font-sizes instead to rem units instead of % and the hero image was not centered anymore - solved with changing div width.
-- changed hamburger icon to hand pointer when hovering over - https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item
-- Struggled to get the maintenance page content to sit nicely in the middle of the page. Eventually got it working by changing the width property for the different media queries
-- Commit messages before mentor meeting 1 were bad practice. After the meeting the correct format was used
+- In order for the image map to work correctly I needed to know which pixels in the image matched up to each particular engine bay component. I utilised the following website to find the solution - https://html.com/images/how-to-make-an-image-map/
+- I could not get the footer to sit correctly at the bottom of the page even with margin-top set to auto. I changed the body flex direction to column and then it sat vertically under the other sections. This was the solution.
+- The drop down menu was opening on top of the image - need to push the top of image to the bottom of the dropdown menu. Increased the top margin of main element to solve this. Then I had to make it responsive as the margin size differed at various resolutions.
+- I changed hamburger icon to hand pointer when hovering over. Solution found at this website - https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item
+- Struggled to get the maintenance page content to sit nicely in the middle of the page. Eventually got it working by changing the width property for the different media queries.
+- Commit messages before mentor meeting 1 were bad practice. After the meeting the correct format was used.
   
 ### Unfixed Bugs
-
-The image map currently only works on screen sizes of 1040px and higher. I could not make the image map work at different sizes without javaScript
+- No unfixed bugs
 ## Deployment
 
-- The site was deployed on gitHub pages on day 1 of the project undertaking. Steps taken are as follows:
-	- Inside the repo click the settings tab
-	- Click on pages menu item on the side bar
-	- Select the master branch and then click the link to go to the live site
+The site was deployed on gitHub pages on day 1 of the project undertaking. Steps taken are as follows:
+- Inside the repo click the settings tab
+- Click on pages menu item on the side bar
+- Select the master branch and then click the link to go to the live site
 
 The live link to the site can be found here https://fergal92.github.io/pp1-car-maintenance/index.html 
 ## Credits
@@ -133,15 +130,15 @@ The live link to the site can be found here https://fergal92.github.io/pp1-car-m
 - The fonts were taken from google fonts 
 - The contact page was taken from a freecodecamp tutorial. I modified it to suit this project
 ### Media
-- The photos used for the website were taken from a google image search. The photos and the link to the site they were found are listed below.
-	- engine bay photo - https://www.meguiars.co.uk/showroom/detailing-bay-650bhp-full-stage-r34-gt-r/
-	- battery - https://www.goauto.ca/tools-resources/how-to-test-your-battery-voltage
-	- headlights - https://smartdriving.co.uk/Driving/Driving_emergencies/headlights.html
-	- engine oil check - https://www.gulfoilltd.com/blog/when-should-you-check-the-engine-oil-level
-	- coolant check - https://haynes.com/en-gb/tips-tutorials/how-check-and-change-your-car-s-coolant
-	- wiper blades - https://www.sunsetnorthcarwash.com/2020/12/14/it-might-be-time-to-change-your-windshield-wiper-blades/
+The photos used for the website were taken from a google image search. The photos and the link to the site they were found are listed below.
+- engine bay photo - https://www.meguiars.co.uk/showroom/detailing-bay-650bhp-full-stage-r34-gt-r/
+- battery - https://www.goauto.ca/tools-resources/how-to-test-your-battery-voltage
+- headlights - https://smartdriving.co.uk/Driving/Driving_emergencies/headlights.html
+- engine oil check - https://www.gulfoilltd.com/blog/when-should-you-check-the-engine-oil-level
+- coolant check - https://haynes.com/en-gb/tips-tutorials/how-check-and-change-your-car-s-coolant
+- wiper blades - https://www.sunsetnorthcarwash.com/2020/12/14/it-might-be-time-to-change-your-windshield-wiper-blades/
 
 ## External tools
-- ### GitHub Projects
-  	Link to the GitHub prject page that was used to manage the website build. Items were added to the kanban board and worked through.
-	- https://github.com/users/fergal92/projects/1/views/2 
+### GitHub Projects
+Link to the GitHub project page that was used to manage the website build. Items were added to the kanban board and worked through.
+[github project board](https://github.com/users/fergal92/projects/1/views/2)
