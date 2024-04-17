@@ -9,7 +9,7 @@ Firefox browser: ![Firefox browser](assets/readme-media/browser-firefox.png)
 Edge browser: ![Edge browser](assets/readme-media/browser-edge.png)
 
 ## Responsiveness
-The website was checked for responsiveness using the chrome extension "Responsive Viewer". All pages were tested. The website is fully responsive and has a mobile first design.
+The website was checked for responsiveness using the chrome extension [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb). All pages were tested. The website is fully responsive and has a mobile first design.
 
 Index page: ![Responsive test index page](assets/readme-media/responsive-index.png)
 
@@ -47,6 +47,7 @@ Thank you page: ![Responsive test thank you page](assets/readme-media/responsive
 | Thank you message | The user clicks on the return to home page link| The user is redirected to the home page | Yes | Yes | - |
 
 ### Validator Testing
+The following is a summary of validatione errors found upomn testing. All errors were resolved.
 
 #### HTML
 ##### Index page
@@ -57,8 +58,6 @@ Thank you page: ![Responsive test thank you page](assets/readme-media/responsive
 
 #### CSS
 ![css validation error](assets/readme-media/css-validation-error.png)
-
-All validation errors were fixed
 
 ### Accessibility
 I confirmed that the colour and fonts are easy to read by running it through lighthouse in chrome devtools
