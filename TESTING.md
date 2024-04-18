@@ -2,22 +2,22 @@
 ## Compatibility
 I confirmed the correct functionality, responsivness and appearence by testing the website in Chrome, Firefox and Edge browsers. The website worked without issue in all three.
 
-Chrome browser: ![Chrome browser](assets/readme-media/browser-chrome.png)
+Chrome browser: ![Chrome browser](readme-media/browser-chrome.png)
 
-Firefox browser: ![Firefox browser](assets/readme-media/browser-firefox.png)
+Firefox browser: ![Firefox browser](readme-media/browser-firefox.png)
 
-Edge browser: ![Edge browser](assets/readme-media/browser-edge.png)
+Edge browser: ![Edge browser](readme-media/browser-edge.png)
 
 ## Responsiveness
 The website was checked for responsiveness using the chrome extension [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb). All pages were tested. The website is fully responsive and has a mobile first design.
 
-Index page: ![Responsive test index page](assets/readme-media/responsive-index.png)
+Index page: ![Responsive test index page](readme-media/responsive-index.png)
 
-Maintenance page: ![Responsive test maintenance page](assets/readme-media/responsive-maintenance.png)
+Maintenance page: ![Responsive test maintenance page](readme-media/responsive-maintenance.png)
 
-Contact page: ![Responsive test contact page](assets/readme-media/responsive-contact.png)
+Contact page: ![Responsive test contact page](readme-media/responsive-contact.png)
 
-Thank you page: ![Responsive test thank you page](assets/readme-media/responsive-thank-you.png)
+Thank you page: ![Responsive test thank you page](readme-media/responsive-thank-you.png)
 
 ## Manual Testing
 | feature | action | expected result | tested | passed | comments |
@@ -51,26 +51,26 @@ The following is a summary of validation errors found upon testing. **All errors
 
 #### HTML
 ##### Index page
-![html validation error index page](assets/readme-media/html-validation-error-1.png)
+![html validation error index page](readme-media/html-validation-error-1.png)
 
 ##### Maintenance page
-![html validation error maintenance page](assets/readme-media/html-validation-error-2.png)
+![html validation error maintenance page](readme-media/html-validation-error-2.png)
 
 #### CSS
-![css validation error](assets/readme-media/css-validation-error.png)
+![css validation error](readme-media/css-validation-error.png)
 Even though two warnings are present, the website is working 100% on different devices and browsers. The warning is coming from the validator itself because it cannot check imported stylesheets
 
 ### Accessibility
 I confirmed that the colour and fonts are easy to read by running it through lighthouse in chrome devtools
 I did this for each page of the website
 
-Index page: ![lighthouse report](assets/readme-media/lighthouse-index.png)
+Index page: ![lighthouse report](readme-media/lighthouse-index.png)
 
-Maintenance page: ![lighthouse report](assets/readme-media/lighthouse-maintenance.png)
+Maintenance page: ![lighthouse report](readme-media/lighthouse-maintenance.png)
 
-Contact page: ![lighthouse report](assets/readme-media/lighthouse-contact.png)
+Contact page: ![lighthouse report](readme-media/lighthouse-contact.png)
 
-Thanl you page: ![lighthouse report](assets/readme-media/lighthouse-thank-you.png)
+Thanl you page: ![lighthouse report](readme-media/lighthouse-thank-you.png)
 
 ## Bugs
 ### Solved bugs
