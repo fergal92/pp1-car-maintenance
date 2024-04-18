@@ -170,7 +170,7 @@ The live link to the site can be found here https://fergal92.github.io/pp1-car-m
 ### Local Deployment
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-`git clone https://fergal92.github.io/pp1-car-maintenance/`
+`git clone https://github.com/fergal92/pp1-car-maintenance.git`
 
 ## Credits
 
