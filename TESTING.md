@@ -47,7 +47,7 @@ Thank you page: ![Responsive test thank you page](assets/readme-media/responsive
 | Thank you message | The user clicks on the return to home page link| The user is redirected to the home page | Yes | Yes | - |
 
 ### Validator Testing
-The following is a summary of validatione errors found upomn testing. All errors were resolved.
+The following is a summary of validation errors found upon testing. **All errors were resolved**.
 
 #### HTML
 ##### Index page
@@ -58,6 +58,7 @@ The following is a summary of validatione errors found upomn testing. All errors
 
 #### CSS
 ![css validation error](assets/readme-media/css-validation-error.png)
+Even though two warnings are present, the website is working 100% on different devices and browsers. The warning is coming from the validator itself because it cannot check imported stylesheets
 
 ### Accessibility
 I confirmed that the colour and fonts are easy to read by running it through lighthouse in chrome devtools

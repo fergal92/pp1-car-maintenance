@@ -51,14 +51,36 @@ Visit the site [here](https://fergal92.github.io/pp1-car-maintenance/index.html)
 - Build a footer
 - Include social media icons that link to the appropriate pages and open in a new tab
 
-## Features
+### As a user of a laptop I can click on different parts of a car engine picture to bring up the corresponding section of maintenance 
+#### Acceptance Criteria:
+- The website feautues an image that is clickable 
+- The clickale image redirects the user to a maintenencae task related to the car part they clicked on
+#### Tasks:
+- Include an image map with the hero image
+- Make the map redirect to the relevant sections of the image and the maintenance page
 
+## Agile Methodologies
+### GitHub Projects
+Link to the GitHub project page that was used to manage the website build. Items were added to the kanban board and worked through. Items were linked to the project repo and closed off as the project progressed. [github project board](https://github.com/users/fergal92/projects/1/views/2)
+
+## Features
 ### Existing Features
 
 #### Navigation Bar
 - Featured on all three page, the fully responsive navigation bar includes a logo with link to the home page and three list items that link to the home page, maintenance page and the contact page.
 - This section will allow users to navigate around the website without having to use the back button
+
+Laptop navbar:
+
 ![nav-bar screenshot](assets/readme-media/nav-bar.png)
+
+Mobile navbar closed:
+
+![mobile nav-bar screenshot closed](assets/readme-media/mobile-navbar-closed.png)
+
+Mobile navbar open:
+
+![mobile nav-bar screenshot closed](assets/readme-media/mobile-navbar-open.png)
 
 #### Landing page image
 - The landing page image is of an engine bay with an image map overlaid so that the user can click different parts of the photo to be brought to the corresponding section on the maintenance page, for example, clicking the headlights brings the user to the lights section, clicking the engine brings the user to the engine oil section. The photo map feature is only available when the screnn is 1024px and greater.
@@ -104,7 +126,8 @@ Visit the site [here](https://fergal92.github.io/pp1-car-maintenance/index.html)
 - [GitHub](https://github.com/) - was used to host the code of the website.
 - [Microsoft Paint](https://www.microsoft.com/en-us/windows/paint) - was used to make and resize images for the README file.
 - [Perplexity AI](https://www.perplexity.ai/) - was used to help develop design ideas such as colour scheme and font type
-- [Am I Responsive](https://ui.dev/amiresponsive) - was used to generate an image of the website across different scren types and resolutions
+- [Am I Responsive](https://ui.dev/amiresponsive) - was used to generate an image of the website across different screen types and resolutions
+- [GitHub Pages](https://pages.github.com/) - was used to host the website
 
 ## Design
 ### Colours
@@ -140,14 +163,14 @@ Please refer to the [TESTING.md](TESTING.md) file for all testing documentation
 The site was deployed on gitHub pages on day 1 of the project undertaking. Steps taken are as follows:
 - Inside the repo click the settings tab
 - Click on pages menu item on the side bar
-- Select the master branch and then click the link to go to the live site
+- Select the main branch and then click the link to go to the live site
 
-The live link to the site can be found here https://fergal92.github.io/pp1-car-maintenance/index.html 
+The live link to the site can be found here https://fergal92.github.io/pp1-car-maintenance
 
 ### Local Deployment
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-git clone https://fergal92.github.io/pp1-car-maintenance/
+`git clone https://fergal92.github.io/pp1-car-maintenance/`
 
 ## Credits
 
@@ -173,11 +196,6 @@ The icons in the footer were taken from font awesome
 - add fully functional contact form.
 - Add image maps for all screen sizes
 - Add better commit messages from the start of the project
-
-## External tools
-### GitHub Projects
-Link to the GitHub project page that was used to manage the website build. Items were added to the kanban board and worked through.
-[github project board](https://github.com/users/fergal92/projects/1/views/2)
 
 ## Acknowledgements
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) - My mentor Julia was very supportive during this project. She certainly pushed me to complete a high standard of project especially for the readme and testing sections. I took inspiration from her README.md and TESTING.md files for my own.
