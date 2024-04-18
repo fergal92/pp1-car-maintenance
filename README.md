@@ -6,7 +6,7 @@ The site landing page contains a link to a Top Gear article about the same car t
 
 Visit the site [here](https://fergal92.github.io/pp1-car-maintenance/index.html)
 
-![responsive multi screen image](assets/readme-media/responsive-img.png)
+![responsive multi screen image](readme-media/responsive-img.png)
 
 ## User stories
 
@@ -72,44 +72,44 @@ Link to the GitHub project page that was used to manage the website build. Items
 
 Laptop navbar:
 
-![nav-bar screenshot](assets/readme-media/nav-bar.png)
+![nav-bar screenshot](readme-media/nav-bar.png)
 
 Mobile navbar closed:
 
-![mobile nav-bar screenshot closed](assets/readme-media/mobile-navbar-closed.png)
+![mobile nav-bar screenshot closed](readme-media/mobile-navbar-closed.png)
 
 Mobile navbar open:
 
-![mobile nav-bar screenshot closed](assets/readme-media/mobile-navbar-open.png)
+![mobile nav-bar screenshot closed](readme-media/mobile-navbar-open.png)
 
 #### Landing page image
 - The landing page image is of an engine bay with an image map overlaid so that the user can click different parts of the photo to be brought to the corresponding section on the maintenance page, for example, clicking the headlights brings the user to the lights section, clicking the engine brings the user to the engine oil section. The photo map feature is only available when the screnn is 1024px and greater.
 - The engine bay image is of a beautifully maintained Nissan Skyline R34 GT-R which is a legendary car among car enthusiasts.
-![hero-img screenshot](assets/readme-media/index-img.png)
+![hero-img screenshot](readme-media/index-img.png)
 
 
 #### The Footer
 - The footer section includes links to relevant social media sites. The links open to a new tab to allow for easy navigation for the user.
 - The footer sticks to the bottom of the page
-![footer screenshot](assets/readme-media/footer.png)
+![footer screenshot](readme-media/footer.png)
 
 
 #### Maintenance Page
 - Includes all maintenace content
 - content includes picture per item and is centered and justified
 - each mainteance task is connected to the hero image map on index page
-![maintenance page screenshot](assets/readme-media/maintenance-img.png)
+![maintenance page screenshot](readme-media/maintenance-img.png)
 
 
 #### Contact Page
 - The contact page will allow the user to contact the website for more specific questions and to subscribe to hear more from the car maintenance bible
 - The user will be asked to submit their full name and and email address and to tick a checkbox to subscribe and to write their message
-![contact page screenshot](assets/readme-media/contact-img.png)
+![contact page screenshot](readme-media/contact-img.png)
 
 #### Thank You Page
 - The thank you page thanks users for filling in the contact form
 - It features the header and footer and a link in the main section to bring users back to the main site 
-![thank you page screenshot](assets/readme-media/thank-you-img.png)
+![thank you page screenshot](readme-media/thank-you-img.png)
 
 ### Features left to implement 
 
@@ -143,16 +143,16 @@ fire-engine-red: #d5002eff;
 I used Raleway and Montserrat as the fonts for the project. They are Sans Serif fonts. Perplexity AI suggested the use of these fonts for a car maintenance themed website. They worked well upon trial so I kept them. The fonts were found and imported from Google Fonts.
 
 Raleway:
-![raleway font](assets/readme-media/raleway-font.png)
+![raleway font](readme-media/raleway-font.png)
 Montserrat:
-![raleway font](assets/readme-media/montserrat-font.png)
+![raleway font](readme-media/montserrat-font.png)
 
 ### Wireframes
 Wireframes were created using Blasamiq. First draft wireframes of the different pages as viewed on a laptop
 
-Inex page: ![wireframe index page](assets/readme-media/car-maintenance-bible-index.png)
-Maintenance page: ![wireframe index page](assets/readme-media/car-maintenance-bible-maintenance.png)
-Contact page:![wireframe index page](assets/readme-media/car-maintenance-bible-contact.png)
+Inex page: ![wireframe index page](readme-media/car-maintenance-bible-index.png)
+Maintenance page: ![wireframe index page](readme-media/car-maintenance-bible-maintenance.png)
+Contact page:![wireframe index page](readme-media/car-maintenance-bible-contact.png)
 
 ## Testing
 Please refer to the [TESTING.md](TESTING.md) file for all testing documentation
@@ -189,7 +189,7 @@ The photos used for the website were taken from a google image search. The photo
 
 The Favicons were taken for free from this website https://favicon.io/emoji-favicons/automobile
 
-The icons in the footer were taken from font awesome
+The icons in the footer were taken from font awesome - https://fontawesome.com/
 
 ## Future improvements
 - add custom 404 page;
